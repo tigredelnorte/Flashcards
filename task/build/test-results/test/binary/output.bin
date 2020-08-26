@@ -1,0 +1,130 @@
+[1;31m
+Start test 1[0m
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+	> export
+
+File name:
+> capitals.txt
+0 cards have been saved.
+
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+	> export
+
+File name:
+> capitalsNew.txt
+0 cards have been saved.
+
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> exit
+
+Bye bye!
+[1;31m
+Start test 2[0m
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> add
+	The card:
+	> France
+The definition of the card:
+> Paris
+)The pair ("France:Paris") has been added.
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> add
+	The card:
+	> Russia
+The definition of the card:
+	> Moscow
+*The pair ("Russia:Moscow") has been added.
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> ask
+How many times to ask?
+> 3
+!Print the definition of "France":
+	> France
+"Wrong. The right answer is "Paris"
+!Print the definition of "France":
+> ??
+"Wrong. The right answer is "Paris"
+!Print the definition of "Russia":
+> 
+#Wrong. The right answer is "Moscow"
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> exit
+
+Bye bye!
+2 cards have been saved.
+
+[1;31m
+Start test 3[0m
+2 cards have been loaded
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> add
+	The card:
+> Japan
+The definition of the card:
+> Tokyo
+(The pair ("Japan:Tokyo") has been added.
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> ask
+How many times to ask?
+> 3
+!Print the definition of "Russia":
+	> Moscow
+Correct!
+!Print the definition of "Russia":
+> Paris
+QWrong. The right answer is "Moscow", but your definition is correct for "France".
+ Print the definition of "Japan":
+> Tokyo
+Correct!
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> exit
+
+Bye bye!
+3 cards have been saved.
+
+[1;31m
+Start test 4[0m
+3 cards have been loaded
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> ask
+How many times to ask?
+> 3
+!Print the definition of "Russia":
+	> Moscow
+Correct!
+ Print the definition of "Japan":
+> Paris
+PWrong. The right answer is "Tokyo", but your definition is correct for "France".
+!Print the definition of "France":
+> Tokyo
+OWrong. The right answer is "Paris", but your definition is correct for "Japan".
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+	> remove
+	The card:
+> Japan
+The card has been removed.
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> exit
+
+Bye bye!
+2 cards have been saved.
+
+[1;31m
+Start test 5[0m
+2 cards have been loaded
+
+aInput the action (add, remove, import, export, ask, list, log, resets stats, hardest card, exit):
+> exit
+
+Bye bye!
